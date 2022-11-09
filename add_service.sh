@@ -14,7 +14,8 @@ echo ""
 
 echo "Iniciando edicion..."
 sudo vim /etc/firewalld/services/ejemplo.xml
+echo ""
 
 echo "Verificando servicios..."
-firewall-cmd --get-services
-
+firewall-cmd --get-services | grep ejemplo.xml
+echo ""

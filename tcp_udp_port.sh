@@ -11,7 +11,7 @@ echo "Digite el protocolo (tcp o udp)..."
 read protocolo
 echo ""
 echo "Digite el número del puerto (También puede colocar un rango separado por -)"
-echo puerto
+read puerto
 echo ""
 
 firewall-cmd --zone=$zona --add-port=$puerto/$protocolo
@@ -20,3 +20,4 @@ echo ""
 echo "Verificando listado de puertos..."
 echo ""
 firewall-cmd --zone=$zona --list-ports
+echo ""

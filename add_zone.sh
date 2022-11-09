@@ -16,3 +16,4 @@ firewall-cmd --new-zone=$zona --permanent
 
 echo "Verificando zonas agregadas..."
 firewall-cmd --get-zones
+echo ""

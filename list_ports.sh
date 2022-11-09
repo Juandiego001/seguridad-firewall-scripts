@@ -8,3 +8,4 @@ echo "Digite el nombre de la zona..."
 read zona
 
 firewall-cmd --zone=$zona --list-ports
+echo ""

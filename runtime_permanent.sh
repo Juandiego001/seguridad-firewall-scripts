@@ -6,3 +6,4 @@ echo "------------------------------------------------------"
 echo ""
 
 firewall-cmd --runtime-to-permanent
+echo ""

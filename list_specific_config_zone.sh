@@ -11,3 +11,4 @@ echo "Protoclo direccion o caracteristica deseada..."
 read caracteristica
 
 firewall-cmd --zone=$zona --list-all | grep $caracteristica
+echo ""

@@ -6,3 +6,4 @@ echo "------------------------------------------------------"
 echo ""
 
 ls /usr/lib/firewalld/services
+echo ""
