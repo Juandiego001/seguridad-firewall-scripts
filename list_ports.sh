@@ -1,8 +1,10 @@
 #!/bin/bash
 
 echo "------------------------------------------------------"
-echo "Listando servicios desde la carpeta..."
+echo "Listando los puertos de una zona en específico..."
 echo "------------------------------------------------------"
 echo ""
+echo "Digite el nombre de la zona..."
+read zona
 
-ls /usr/lib/firewalld/services
+firewall-cmd --zone=$zona --list-ports

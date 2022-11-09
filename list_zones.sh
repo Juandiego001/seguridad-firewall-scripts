@@ -2,7 +2,7 @@
 
 echo "------------------"
 echo "Listando zonas..."
-echo "------------------\n"
+echo "------------------"
 echo ""
 
 firewall-cmd --get-zones

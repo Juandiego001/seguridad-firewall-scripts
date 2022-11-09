@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "------------------------------------------------------"
-echo "Listando servicios desde la carpeta..."
+echo "Guardar configuración del firewall..."
 echo "------------------------------------------------------"
 echo ""
 
-ls /usr/lib/firewalld/services
+firewall-cmd --runtime-to-permanent

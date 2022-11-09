@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "------------------"
+echo "------------------------------------"
 echo "Listando servicios de una zona..."
-echo "------------------\n"
+echo "------------------------------------"
 echo ""
 echo "Digite el nombre de la zona..."
 read zona

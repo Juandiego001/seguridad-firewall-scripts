@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "------------------"
+echo "------------------------------------------------------"
 echo "Listando todo lo de la zona por defecto..."
-echo "------------------\n"
+echo "------------------------------------------------------"
 echo ""
 
 firewall-cmd --list-all

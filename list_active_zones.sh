@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "------------------"
+echo "------------------------------------"
 echo "Listando zonas activas..."
-echo "------------------\n"
+echo "------------------------------------"
 echo ""
 
 firewall-cmd --get-active-zones 

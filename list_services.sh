@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "------------------"
+echo "------------------------------------"
 echo "Listando servicios..."
-echo "------------------\n"
+echo "------------------------------------"
 echo ""
 
 firewall-cmd --get-services
