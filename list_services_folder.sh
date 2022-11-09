@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "------------------"
-echo "Listando zonas..."
+echo "Listando servicios desde la carpeta..."
 echo "------------------\n"
 echo ""
 
-firewall-cmd --get-zones
+ls /usr/lib/firewalld/services

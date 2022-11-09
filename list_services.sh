@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "------------------"
-echo "Listando zonas..."
+echo "Listando servicios..."
 echo "------------------\n"
 echo ""
 
-firewall-cmd --get-zones
+firewall-cmd --get-services

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "------------------"
-echo "Listando zonas..."
+echo "Listando todo lo de la zona por defecto..."
 echo "------------------\n"
 echo ""
 
-firewall-cmd --get-zones
+firewall-cmd --list-all
